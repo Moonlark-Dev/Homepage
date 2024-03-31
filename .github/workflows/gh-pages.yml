@@ -23,7 +23,8 @@ jobs:
       - name: Build
         run: |
           npm install
-          npx build
+          npm run build
+          echo moonlark-dev.itcdt.top > ./dist/CNAME
 
       - name: Publish
         uses: s0/git-publish-subdir-action@master
