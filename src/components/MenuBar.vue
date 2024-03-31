@@ -7,7 +7,7 @@
 	>
 		<el-menu-item index="icon">
 			<template #title>
-				<LogoIcon/>
+				<LogoIcon :size="'large'"/>
 				<span style="padding-left: 1em;"/>
 				<span style="color: #000000;">
 					<span>M</span>
@@ -30,7 +30,7 @@
 import LogoIcon from "./LogoIcon.vue";
 
 const onSelect = (key: string) => {
-	if (key == "github") location.href = "https://github.com/Moonlark-Dev/Moonlark";
+	if (key == "github") location.href = "https://github.com/Moonlark-Dev";
 };
 
 </script>

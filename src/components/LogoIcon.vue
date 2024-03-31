@@ -1,9 +1,14 @@
 <script setup lang="ts">
+import { defineProps } from "vue";
+
+defineProps<{
+	size: string | number
+}>();
 
 </script>
 
 <template>
-	<el-avatar size="default" src="/assets/logo.png" class="logo"/>
+	<el-avatar :size="size" src="/assets/logo.png" class="logo"/>
 </template>
 
 <style scoped lang="scss">
