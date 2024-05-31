@@ -1,6 +1,6 @@
 <script setup lang="ts">
-const mapper = ({ character, manager, other }) => ({ character, manager, other: other.join(", ") });
-const dataMoonlark = [
+const mapper = ({ character, manager, other }: any) => ({ character, manager, other: other.join(", ") });
+const dataMoonlark: any[] = [
   {"character": "审核", "manager": "@chun-awa", "other": ["@montmorill", "@XieXiLin2", "@YifanZhuZhu(文本)"]},
   {"character": "策划", "manager": "@YifanZhuZhu", "other": ["@This-is-XiaoDeng", "@chun-awa", "85"]},
   {"character": "开发", "manager": "@This-is-XiaoDeng", "other": ["@xxtg666", "@chun-awa"]},
@@ -10,20 +10,20 @@ const dataMoonlark = [
   {"character": "客服", "manager": "@chun-awa", "other": []},
   {"character": "美术", "manager": "85", "other": []}
 ].map(mapper);
-const dataXDbot2 = [
+const dataXDbot2: any[] = [
 	{"character": "开发", "manager": "@xxtg666", "other": ["@This-is-XiaoDeng", "@ShirasawaTopaz"]},
 	{"character": "审核", "manager": "@xxtg666", "other": ["@XieXiLin2"]},
 	{"character": "管理", "manager": "@This-is-XiaoDeng", "other": ["@xxtg666"]},
 	{"character": "运维", "manager": "@This-is-XiaoDeng", "other": ["@chun-awa"]},
 	{"character": "策划", "manager": "@xxtg666", "other": []}
 ].map(mapper);
-const dataMoonlarkWiki = [
+const dataMoonlarkWiki: any[] = [
 	{"character": "策划", "manager": "@This-is-XiaoDeng", "other": ["@YifanZhuZhu", "@chun-awa"]},
 	{"character": "管理", "manager": "@This-is-XiaoDeng", "other": ["@xxtg666"]},
 	{"character": "运维", "manager": "@This-is-XiaoDeng", "other": ["@chun-awa"]},
 	{"character": "美术", "manager": "85", "other": []}
 ].map(mapper);
-const dataHomepage = [
+const dataHomepage: any[] = [
 	{"character": "开发 & 运维", "manager": "@WowStarWorld", "other": ["@This-is-XiaoDeng"]},
 	{"character": "美术", "manager": "85", "other": []}
 ].map(mapper);
