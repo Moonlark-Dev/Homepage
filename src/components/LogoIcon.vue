@@ -2,7 +2,7 @@
 import { defineProps } from "vue";
 
 defineProps<{
-	size: string | number
+	size:  "large" | "default" | "small" | number
 }>();
 
 </script>
