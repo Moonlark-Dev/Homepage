@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
-    "element-plus": "^2.10.3",
+    "element-plus": "^2.10.4",
     "typed.js": "^2.1.0",
     "vue": "^3.5.17"
   },
