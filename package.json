@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@fortawesome/fontawesome-free": "^7.0.0",
     "element-plus": "^2.10.4",
     "typed.js": "^2.1.0",
     "vue": "^3.5.17"
