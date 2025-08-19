@@ -22,7 +22,7 @@
     "eslint-plugin-vue": "^9.33.0",
     "sass": "^1.90.0",
     "typescript": "^5.8.3",
-    "vite": "^7.1.1",
+    "vite": "^7.1.2",
     "vue-tsc": "^3.0.4"
   }
 }
